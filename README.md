@@ -14,19 +14,17 @@ Ett modulärt, loggningsbart och testat Python-projekt för att hämta och expor
 ## Mappstruktur
 
 omx30_analys/
-├── main.py                  # Orkestrerar flödet via funktionsanrop
-├── fetch.py                 # Hämtar nyckeltal från årsredovisning via yfinance
-├── export.py                # Sparar DataFrame till CSV i output/
-├── logger.py                # Central loggning + PDF-export + (valbar mailfunktion)
-├── test.py                  # Tester för fetch, export, logger
-├── output/                  # Outputfiler (logg och data)
+├── main.py               # Orkestrerar flödet via funktionsanrop
+├── fetch.py              # Hämtar nyckeltal från årsredovisning via yfinance
+├── export.py             # Sparar DataFrame till CSV i output/
+├── logger.py             # Central loggning + PDF-export + valbar mailfunktion
+├── test.py               # Tester för fetch, export, logger
+├── output/               # Outputfiler (logg och data)
 │   ├── omx30_nyckeltal.csv
 │   ├── omx30_logg.txt
 │   └── omx30_logg.pdf
-├── requirements.txt         # Paket: pandas, yfinance, fpdf, etc.
-├── README.md                # Dokumentation och körinstruktioner
-
-
+├── requirements.txt      # Paket: pandas, yfinance, fpdf, etc.
+└── README.md             # Dokumentation och körinstruktioner
 
 
 ## Installation
