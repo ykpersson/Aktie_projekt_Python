@@ -1,7 +1,5 @@
 # Aktie_projekt_Python
 
-# OMX30 Nyckeltalsmotor
-
 Ett modulärt, loggningsbart och testat Python-projekt för att hämta och exportera nyckeltal från årsredovisningar för samtliga aktier i OMX30 – inklusive A-, B- och C-aktier.
 
 ## Funktioner
